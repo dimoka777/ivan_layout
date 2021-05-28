@@ -893,13 +893,6 @@ input {
   transform: translateX(5px);
 }
 
-.units-btn-small {
-  width: 30px;
-  height: 30px;
-  background-color: #000;
-  opacity: 0;
-}
-
 .units-slider-rent__big {
   margin-bottom: 16px;
 }
@@ -1672,9 +1665,6 @@ input {
   .search-sell .search-input__cost {
     margin-right: 0;
   }
-  .units-slider-rent__big {
-    margin-bottom: 0;
-  }
   .units-btn {
     width: 50px;
     height: 50px;
@@ -1726,6 +1716,9 @@ input {
     top: calc(50% - 25px);
     right: -43px;
   }
+  .sub {
+    min-height: 420px;
+  }
   .sub-phone-img {
     display: none;
   }
@@ -1736,8 +1729,6 @@ input {
   }
   .sub-block {
     width: 70%;
-    height: auto;
-    padding: 0;
   }
   .sub-subtitle {
     font-size: 1.6rem;
@@ -5184,11 +5175,6 @@ input {
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .sub-block {
-    width: 70%;
-    height: auto;
-    padding: 0;
-  }
   .sub-subtitle {
     font-size: 1.6rem;
   }
@@ -5553,9 +5539,6 @@ input {
   .feedback-btn.feedback-btn__next.slick-arrow {
     display: none !important;
   }
-  .sub-block {
-    width: 90%;
-  }
   .sub-title {
     font-size: 25px;
   }
@@ -5694,9 +5677,6 @@ input {
   }
   .feedback .l_scroll_but {
     left: -22px;
-  }
-  .sub-block {
-    width: 100%;
   }
   .sub-title {
     font-size: 20px;
