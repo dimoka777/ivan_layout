@@ -1054,7 +1054,7 @@ input {
 .unit-big {
   margin-right: 20px;
   height: auto;
-  min-height: 434px;
+  max-height: 434px;
   /* добавлено */
 }
 
@@ -1071,7 +1071,7 @@ input {
 .unit-small {
   margin-right: 20px;
   height: auto;
-  min-height: 285px;
+  max-height: 285px;
   /* добавлено */
 }
 
@@ -1460,7 +1460,6 @@ input {
 
 .footer {
   padding: 30px;
-  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4964,7 +4963,6 @@ input {
 
 .footer {
   padding: 30px;
-  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

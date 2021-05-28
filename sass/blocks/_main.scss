@@ -1056,7 +1056,7 @@ input {
 	margin-right: 20px;
 	height: auto;
 
-	min-height: 434px; /* добавлено */
+	max-height: 434px; /* добавлено */
 }
 
 /* добавлено */
@@ -1071,7 +1071,7 @@ input {
 	margin-right: 20px;
 	height: auto;
 
-	min-height: 285px; /* добавлено */
+	max-height: 285px; /* добавлено */
 }
 
 /*  добавлено */
@@ -1457,7 +1457,7 @@ input {
 
 .footer {
 	padding: 30px;
-	padding-top: 100px;
+	// padding-top: 100px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
